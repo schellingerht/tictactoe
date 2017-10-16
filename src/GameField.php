@@ -33,7 +33,7 @@ final class GameField
     private $tileFactory;
 
     /**
-     * GameField constructor.
+     * GameField constructor
      *
      * @param int $size (Width or height) of the game field (number of tiles)
      * @param string $tileType Type of tile

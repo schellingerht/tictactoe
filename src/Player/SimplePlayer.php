@@ -5,7 +5,7 @@ namespace Schellingerht\TicTacToe\Player;
 /**
  * Class SimplePlayer
  *
- * Implementation of PlayerInterface
+ * Player logic
  *
  * @package Schellingerht\TicTacToe\Player
  */
@@ -17,7 +17,8 @@ final class SimplePlayer implements PlayerInterface
     private $name;
 
     /**
-     * @inheritdoc
+     * SimplePlayer constructor.
+     * @param string $name
      */
     public function __construct(string $name)
     {

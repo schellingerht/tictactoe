@@ -6,6 +6,13 @@ use Schellingerht\TicTacToe\Player\PlayerInterface;
 use SplObserver;
 use SplSubject;
 
+/**
+ * Class SimpleJury
+ *
+ * Logic about the jury: check which player wins
+ *
+ * @package Schellingerht\TicTacToe\Jury
+ */
 class SimpleJury implements JuryInterface, SplObserver
 {
     /**
@@ -83,6 +90,8 @@ class SimpleJury implements JuryInterface, SplObserver
     }
 
     /**
+     * Called by SplSubject notify
+     *
      * @param SplSubject $tile
      */
     public function update(SplSubject $tile): void

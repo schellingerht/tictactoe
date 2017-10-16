@@ -28,6 +28,7 @@ final class SimpleTile implements TileInterface, SplSubject
     /**
      * @var array[SplObserver] $observers
      */
+
     private $observers;
 
     /**
@@ -36,7 +37,7 @@ final class SimpleTile implements TileInterface, SplSubject
     private $player;
 
     /**
-     * Tile constructor.
+     * Tile constructor
      *
      * @param int $row
      * @param int $col

@@ -17,7 +17,8 @@ final class TileFactory
     private $type;
 
     /**
-     * TileFactory constructor.
+     * TileFactory constructor
+     *
      * @param string $type
      */
     public function __construct(string $type)
