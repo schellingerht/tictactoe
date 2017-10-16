@@ -43,7 +43,7 @@ final class GameField
     {
         $this->size = $size;
         $this->jury = $jury;
-        $this->tileFactory = new tileFactory($tileType);
+        $this->tileFactory = new TileFactory($tileType);
     }
 
     /**
