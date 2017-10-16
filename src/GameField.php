@@ -47,7 +47,7 @@ final class GameField
     }
 
     /**
-     * Set up gamefield with tiles. Attach jury instance to field
+     * Set up gamefield with tiles. Attach jury instance to tile
      *
      * @return array Tiles
      * @throws Exception
