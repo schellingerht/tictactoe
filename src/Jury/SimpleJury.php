@@ -13,7 +13,7 @@ use SplSubject;
  *
  * @package Schellingerht\TicTacToe\Jury
  */
-class SimpleJury implements JuryInterface, SplObserver
+final class SimpleJury implements JuryInterface, SplObserver
 {
     /**
      * @var array[][] $rows
