@@ -1,0 +1,24 @@
+{
+  "name": "schellingerht/tictactoe",
+  "description": "A basic Tic-Tac-Toe idea",
+  "keywords": [
+    "tic-tac-toe",
+    "tic",
+    "tac",
+    "toe"
+  ],
+  "license": "MIT",
+  "type": "project",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Schellingerht\\TicTacToe\\": "src/"
+    }
+  }
+}
